@@ -7,10 +7,10 @@ function submitForm() {
 	var phNo = document.getElementById("phNo").value;
 	var emailId = document.getElementById("emailId").value;
 
-	var alertMsg = "First Name: " + firstName + "\n" +
-		            "Last Name: " + lastName + "\n" +
-		            "Phone Number: " + phNo + "\n" +
-		            "Email ID: " + emailId + "\n";
+	var alertMsg = "First Name: " + firstName +
+		            " Last Name: " + lastName +  
+		            " Phone Number: " + phNo +
+		            " Email ID: " + emailId +
 
 	alert(alertMsg);
 	
